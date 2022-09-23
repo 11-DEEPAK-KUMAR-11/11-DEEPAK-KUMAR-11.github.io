@@ -1,3 +1,5 @@
+
+
 body {
     font-family: 'Lato', sans-serif;
     font-size: 16px
@@ -102,7 +104,7 @@ header.active {
 
 header.sticky {
     position: fixed;
-    z-index: 999
+    z-index: 999;
 }
 
 #menu.active {
@@ -261,7 +263,7 @@ footer {
 
 #lead-content {
     position: absolute;
-    z-index: 10;
+    z-index: 5;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -344,6 +346,7 @@ footer {
 }
 
 #about {
+   
     padding: 75px 15px;
     border-bottom: 1px solid #dcd9d9
 }
@@ -358,7 +361,8 @@ footer {
 }
 
 #experience {
-    padding: 50px 15px;
+   
+    padding: 100px 15px;
     text-align: center;
     border-bottom: 1px solid #dcd9d9
 }
@@ -432,7 +436,7 @@ footer {
     position: relative;
     display: block;
     vertical-align: top;
-    margin-bottom: 30px
+    margin-bottom: 30px;
 }
 
 .vtimeline-icon {
@@ -464,7 +468,7 @@ footer {
 }
 
 #education {
-    padding: 50px 15px 20px 15px;
+    padding: 100px 15px 20px 15px;
     border-bottom: 1px solid #dcd9d9;
     text-align: center
 }
@@ -514,17 +518,18 @@ footer {
 }
 
 #projects {
-    padding: 50px 15px;
+    padding: 100px 15px;
     border-bottom: 1px solid #dcd9d9;
     text-align: center
 }
 
 #projects h2 {
     color: #374054;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    margin-top: 20px;
 }
 
-.project {
+/* .project {
     position: relative;
     max-width: 900px;
     margin: 0 auto 30px auto;
@@ -567,26 +572,26 @@ footer {
 
 #more-projects {
     display: none
-}
+} */
 
-#skills {
-    padding: 50px 15px;
+#skill {
+    padding: 100px 15px;
     text-align: center
 }
 
-#skills h2 {
+#skill h2 {
     color: #374054;
     margin-bottom: 50px
 }
 
-#skills ul {
+#skill ul {
     display: block;
     margin: 0 auto;
     padding: 0;
     max-width: 800px
 }
 
-#skills li {
+#skill li {
     display: inline-block;
     margin: 7px;
     padding: 5px 10px;
@@ -861,12 +866,6 @@ footer {
         padding: 5px 10px
     }
 }
-
-
-
-
-
-
 
 /* other style */
 
