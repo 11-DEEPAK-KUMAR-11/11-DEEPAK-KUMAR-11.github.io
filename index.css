@@ -631,6 +631,9 @@ section .title::after {
     height: 350px;
     width: 350px;
   }
+  /* .skills-content,.column{
+    padding-left: 180px;
+  } */
 }
 
 @media (max-width: 991px) {
@@ -700,6 +703,7 @@ section .title::after {
   .contact .contact-content .column {
     width: 100%;
     margin-bottom: 35px;
+   
   }
 }
 
