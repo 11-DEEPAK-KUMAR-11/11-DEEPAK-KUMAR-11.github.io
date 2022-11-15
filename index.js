@@ -63,3 +63,7 @@ $(document).ready(function () {
     });
   });
   new GitHubCalendar(".calendar", "11-DEEPAK-KUMAR-11", { responsive: true });
+  function main()
+  {
+    window.location.href="https://drive.google.com/file/d/1POF3YNa7RoSoeE3aETxlKDltc-IR_SFb/view?usp=sharing"
+  }
